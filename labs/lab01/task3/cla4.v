@@ -61,7 +61,7 @@ module cla4(
 
   wire t3_2, t3_1, t3_0;
 
-  
+
   and #(2) (t3_2, p2, g1);
   and #(2) (t3_1, p2, p1, g0);
   and #(2) (t3_0, p2, p1, p0, cin);
